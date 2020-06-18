@@ -1,3 +1,6 @@
+html {
+    background-image: url(img/background.jpg);
+}
 @font-face {
     font-family: "oswald";
     src: url("fonts/Oswald/Oswald-Stencil.ttf");
