@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/selectors.css">
 </head>
+
 <body>
-    
+    <p>
+    <h2>
+        <a class="fejlec" href="index.html">Főoldal</a>
+        <a class="fejlec" href="menu.html">Étlap</a>
+        <a class="fejlec" href="reg.html">Regisztráció</a>
+        <a class="fejlec" href="order.html">Rendelés</a>
+        <a class="fejlec" href="about.html">Rólunk</a>
+    </h2>
+    </p>
+    <div class="login">
+        <form>
+            <fieldset>
+                <legend>Regisztrációs adatok</legend>
+
+                <div>
+                    <label for="name">Név *</label>
+                    <input id="name" name="Név" type="text" required>
+                </div>
+                <div>
+                    <label for="email">E-mail *</label>
+                    <input id="email" name="E-mail" type="email" required>
+                </div>
+                <div>
+                    <label for="address">Cím *</label>
+                    <input id="address" name="Cím" type="text" size="100" required>
+                </div>
+                <div>
+                    <label for="megjegyzes">Megjegyzés</label>
+                    <textarea id="megjegyzes" name="Megjegyzés" rows="5"></textarea>
+                </div>
+            </fieldset>
+        </form>
+    </div>
 </body>
+
 </html>
